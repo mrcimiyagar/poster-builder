@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/colorPrimaryDark"
+    android:paddingStart="12dp"
+    android:paddingEnd="12dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.one.two.three.poster.front.components.CustomTextView
+        android:id="@+id/txtDownloads"
+        android:gravity="center"
+        android:textSize="15sp"
+        android:textColor="#FFF"
+        android:text="@string/downloads"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" />
+
+    <com.one.two.three.poster.front.components.CustomTextView
+        android:id="@+id/txtActionbarTitle"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:textColor="#FFF"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent" />
+
+    <com.one.two.three.poster.front.components.CustomTextView
+        android:id="@+id/txtHome"
+        android:gravity="center"
+        android:textSize="15sp"
+        android:textColor="#FFF"
+        android:text="@string/home"
+        android:paddingTop="4dp"
+        android:layout_marginRight="3dp"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" />
+
+    <ImageView
+        android:id="@+id/imgHome"
+        android:padding="6dp"
+        android:src="@drawable/ic_home"
+        android:layout_width="32dp"
+        android:layout_height="match_parent" />
+</LinearLayout>

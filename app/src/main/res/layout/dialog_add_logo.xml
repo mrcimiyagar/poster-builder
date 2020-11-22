@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:background="@color/colorPrimaryDark"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.one.two.three.poster.front.components.CustomTextView
+        android:textSize="15sp"
+        android:textColor="#FFF"
+        android:text="@string/add_logo"
+        android:layout_marginBottom="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <com.one.two.three.poster.front.components.CustomTextView
+        android:textSize="13sp"
+        android:clickable="true"
+        android:gravity="center_vertical"
+        android:background="@android:color/transparent"
+        android:paddingTop="4dp"
+        android:textColor="#fff"
+        android:paddingBottom="4dp"
+        android:id="@+id/btnTextFont"
+        android:text="@string/logo_dialog_text"
+        android:layout_marginRight="2dp"
+        android:layout_marginLeft="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:focusable="true" />
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.one.two.three.poster.front.components.CustomTextView
+            android:id="@+id/dialog_add_logo_gallery_text_view"
+            android:clickable="true"
+            android:focusable="true"
+            android:textSize="13sp"
+            android:textColor="#FFF"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:paddingRight="18dp"
+            android:paddingLeft="18dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="@string/gallery"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginEnd="4dp"
+            android:layout_marginRight="4dp" />
+
+        <com.one.two.three.poster.front.components.CustomTextView
+            android:id="@+id/dialog_add_logo_cancel_text_View"
+            android:clickable="true"
+            android:focusable="true"
+            android:textSize="13sp"
+            android:textColor="#FFF"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:paddingRight="18dp"
+            android:paddingLeft="18dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="@string/cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginEnd="4dp"
+            android:layout_marginRight="4dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

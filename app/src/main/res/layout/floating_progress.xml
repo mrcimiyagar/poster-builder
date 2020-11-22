@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:padding="4dp"
+    android:background="@color/colorFloatingProgress"
+    android:layout_width="match_parent"
+    android:layout_height="56dp">
+
+    <com.one.two.three.poster.front.components.CustomTextView
+        android:id="@+id/txtLabel"
+        android:layout_marginRight="6dp"
+        android:layout_marginLeft="4dp"
+        android:padding="1dp"
+        android:textColor="#FFF"
+        android:gravity="center"
+        android:textSize="14sp"
+        android:text="@string/rotate"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" />
+
+    <com.one.two.three.poster.front.components.VolumeView
+        android:id="@+id/volumeProgress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

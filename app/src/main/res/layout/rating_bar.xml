@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_margin="2dp"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content">
+
+        <com.one.two.three.poster.front.components.CustomTextView
+            android:id="@+id/txtNumber1"
+            android:text="۱"
+            android:paddingTop="3dp"
+            android:textSize="9sp"
+            android:gravity="center"
+            android:textColor="#7F7F7F"
+            android:layout_width="match_parent"
+            android:layout_height="32dp" />
+
+        <ImageView
+            android:tint="@color/colorPrimaryDark"
+            app:srcCompat="@drawable/ic_star"
+            android:layout_width="match_parent"
+            android:layout_height="32dp" />
+
+        <ImageView
+            android:tint="@color/colorPrimaryDark"
+            android:id="@+id/imgStar1"
+            app:srcCompat="@drawable/ic_star_fill"
+            android:layout_width="match_parent"
+            android:layout_height="32dp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_margin="2dp"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content">
+
+        <com.one.two.three.poster.front.components.CustomTextView
+            android:id="@+id/txtNumber2"
+            android:text="۲"
+            android:paddingTop="4dp"
+            android:textSize="9sp"
+            android:gravity="center"
+            android:textColor="#7F7F7F"
+            android:layout_width="match_parent"
+            android:layout_height="32dp" />
+
+        <ImageView
+            android:tint="@color/colorPrimaryDark"
+            app:srcCompat="@drawable/ic_star"
+            android:layout_width="match_parent"
+            android:layout_height="32dp" />
+
+        <ImageView
+            android:tint="@color/colorPrimaryDark"
+            android:id="@+id/imgStar2"
+            app:srcCompat="@drawable/ic_star"
+            android:layout_width="match_parent"
+            android:layout_height="32dp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_margin="2dp"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content">
+
+        <com.one.two.three.poster.front.components.CustomTextView
+            android:id="@+id/txtNumber3"
+            android:text="۳"
+            android:paddingTop="4dp"
+            android:textSize="9sp"
+            android:gravity="center"
+            android:textColor="#7F7F7F"
+            android:layout_width="match_parent"
+            android:layout_height="32dp" />
+
+        <ImageView
+            android:tint="@color/colorPrimaryDark"
+            app:srcCompat="@drawable/ic_star"
+            android:layout_width="match_parent"
+            android:layout_height="32dp" />
+
+        <ImageView
+            android:tint="@color/colorPrimaryDark"
+            android:id="@+id/imgStar3"
+            app:srcCompat="@drawable/ic_star"
+            android:layout_width="match_parent"
+            android:layout_height="32dp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_margin="2dp"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content">
+
+        <com.one.two.three.poster.front.components.CustomTextView
+            android:id="@+id/txtNumber4"
+            android:text="۴"
+            android:paddingTop="4dp"
+            android:textSize="10sp"
+            android:gravity="center"
+            android:textColor="#7F7F7F"
+            android:layout_width="match_parent"
+            android:layout_height="32dp" />
+
+        <ImageView
+            android:tint="@color/colorPrimaryDark"
+            app:srcCompat="@drawable/ic_star"
+            android:layout_width="match_parent"
+            android:layout_height="32dp" />
+
+        <ImageView
+            android:tint="@color/colorPrimaryDark"
+            android:id="@+id/imgStar4"
+            app:srcCompat="@drawable/ic_star"
+            android:layout_width="match_parent"
+            android:layout_height="32dp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_margin="2dp"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content">
+
+        <com.one.two.three.poster.front.components.CustomTextView
+            android:id="@+id/txtNumber5"
+            android:text="۵"
+            android:paddingTop="4dp"
+            android:textSize="9sp"
+            android:gravity="center"
+            android:textColor="#7F7F7F"
+            android:layout_width="match_parent"
+            android:layout_height="32dp" />
+
+        <ImageView
+            android:tint="@color/colorPrimaryDark"
+            app:srcCompat="@drawable/ic_star"
+            android:layout_width="match_parent"
+            android:layout_height="32dp" />
+
+        <ImageView
+            android:tint="@color/colorPrimaryDark"
+            android:id="@+id/imgStar5"
+            app:srcCompat="@drawable/ic_star"
+            android:layout_width="match_parent"
+            android:layout_height="32dp" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>

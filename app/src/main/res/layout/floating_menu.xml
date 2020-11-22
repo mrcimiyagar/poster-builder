@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="4dp"
+    android:background="@color/colorPrimary">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:orientation="horizontal">
+
+        <com.one.two.three.poster.front.components.CustomButton
+            android:id="@+id/floating_menu_text_color_button"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="آرایش متن"
+            android:textColor="@color/colorPrimary"
+            android:textSize="14sp"
+            android:background="@drawable/menu_button_background"
+            android:layout_marginRight="3dp"
+            android:layout_marginBottom="3dp"/>
+
+        <com.one.two.three.poster.front.components.CustomButton
+            android:id="@+id/floating_menu_pick_font_button"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="انتخاب فونت"
+            android:textColor="@color/colorPrimary"
+            android:textSize="14sp"
+            android:background="@drawable/menu_button_background"
+            android:layout_marginRight="3dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginBottom="3dp"/>
+
+        <com.one.two.three.poster.front.components.CustomButton
+            android:id="@+id/floating_menu_edit_text_button"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="ویرایش متن"
+            android:textColor="@color/colorPrimary"
+            android:textSize="14sp"
+            android:background="@drawable/menu_button_background"
+            android:layout_marginLeft="3dp"
+            android:layout_marginBottom="3dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:orientation="horizontal">
+
+        <com.one.two.three.poster.front.components.CustomButton
+            android:id="@+id/floating_menu_move_button"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="جابجایی"
+            android:textColor="@color/colorPrimary"
+            android:textSize="14sp"
+            android:background="@drawable/menu_button_background"
+            android:layout_marginRight="3dp"
+            android:layout_marginTop="3dp"/>
+
+        <com.one.two.three.poster.front.components.CustomButton
+            android:id="@+id/floating_menu_rotate_button"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="چرخاندن"
+            android:textColor="@color/colorPrimary"
+            android:textSize="14sp"
+            android:background="@drawable/menu_button_background"
+            android:layout_marginRight="2dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginLeft="3dp"/>
+
+        <com.one.two.three.poster.front.components.CustomButton
+            android:id="@+id/floating_menu_text_size_button"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="اندازه متن"
+            android:textColor="@color/colorPrimary"
+            android:textSize="14sp"
+            android:background="@drawable/menu_button_background"
+            android:layout_marginLeft="3dp"
+            android:layout_marginTop="3dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

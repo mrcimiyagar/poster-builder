@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/colorSaveDialogBackground"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+    <com.one.two.three.poster.front.components.CustomTextView
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="21sp"
+        android:layout_marginTop="16dp"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/about_us"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    
+    <ImageView
+        android:src="@drawable/logo"
+        android:id="@+id/animationView"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="4dp"
+        android:layout_width="116dp"
+        android:layout_height="116dp" />
+
+    <com.one.two.three.poster.front.components.CustomTextView
+        android:id="@+id/txtDialogAboutUs"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="13sp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <com.one.two.three.poster.front.components.CustomTextView
+        android:id="@+id/txtDialogAboutUsLink"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="13sp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <com.one.two.three.poster.front.components.CustomTextView
+        android:id="@+id/txtDialogOk"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="10dp"
+        android:textSize="17sp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/colorHomePink"
+        android:text="@string/ok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

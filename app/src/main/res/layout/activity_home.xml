@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@color/colorHomeBackground"
+    tools:activity="com.one.two.three.poster.front.activities.ActivityHome">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/activity_hom_logo_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageView
+                android:src="@drawable/logo"
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="56dp"
+                android:layout_width="136dp"
+                android:layout_height="136dp" />
+
+            <com.one.two.three.poster.front.components.CustomTextView
+                android:textColor="#012c3f"
+                android:textSize="21sp"
+                android:text="@string/oneTwoThree"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <com.one.two.three.poster.front.components.CustomTextView
+                android:id="@+id/customTextView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-8dp"
+                android:text="@string/design"
+                android:textColor="#012c3f"
+                android:textSize="38sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_margin="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:onClick="onSettingsBtnClicked"
+                android:padding="8dp"
+                android:src="@drawable/ic_setting"
+                android:layout_width="48dp"
+                android:layout_height="48dp" />
+
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent" />
+
+            <ImageView
+                android:onClick="onHelpBtnClicked"
+                android:padding="8dp"
+                android:src="@drawable/ic_help"
+                android:layout_width="48dp"
+                android:layout_height="48dp" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <LinearLayout
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp"
+        android:layout_marginBottom="8dp"
+        android:id="@+id/activity_home_panel_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:onClick="onComingSoon"
+                android:layout_margin="2dp"
+                android:background="@color/colorHomeGray"
+                android:padding="4dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:src="@drawable/ic_caption"
+                    android:padding="2dp"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp" />
+
+                <com.one.two.three.poster.front.components.CustomTextView
+                    android:gravity="center"
+                    android:textColor="#FFF"
+                    android:textStyle="bold"
+                    android:text="@string/imageText"
+                    android:textSize="18sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:onClick="onComingSoon"
+                android:layout_margin="2dp"
+                android:background="@color/colorHomeGray"
+                android:padding="4dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:src="@drawable/ic_resume"
+                    android:padding="2dp"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp" />
+
+                <com.one.two.three.poster.front.components.CustomTextView
+                    android:gravity="center"
+                    android:textColor="#FFF"
+                    android:textStyle="bold"
+                    android:text="@string/resume"
+                    android:textSize="18sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:onClick="onPosterBtnClicked"
+                android:layout_margin="2dp"
+                android:background="@color/colorHomePink"
+                android:padding="4dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:src="@drawable/ic_poster"
+                    android:padding="2dp"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp" />
+
+                <com.one.two.three.poster.front.components.CustomTextView
+                    android:gravity="center"
+                    android:textColor="#FFF"
+                    android:textStyle="bold"
+                    android:text="@string/poster"
+                    android:textSize="18sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:onClick="onComingSoon"
+                android:layout_margin="2dp"
+                android:background="@color/colorHomeGray"
+                android:padding="4dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:src="@drawable/ic_visitcard"
+                    android:padding="2dp"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp" />
+
+                <com.one.two.three.poster.front.components.CustomTextView
+                    android:gravity="center"
+                    android:textColor="#FFF"
+                    android:textStyle="bold"
+                    android:text="@string/visit_card"
+                    android:textSize="18sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:onClick="onComingSoon"
+                android:layout_margin="2dp"
+                android:background="@color/colorHomeGray"
+                android:padding="4dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:src="@drawable/ic_borushur"
+                    android:padding="2dp"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp" />
+
+                <com.one.two.three.poster.front.components.CustomTextView
+                    android:gravity="center"
+                    android:textColor="#FFF"
+                    android:textStyle="bold"
+                    android:text="@string/borushur"
+                    android:textSize="18sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:onClick="onComingSoon"
+                android:layout_margin="2dp"
+                android:background="@color/colorHomeGray"
+                android:padding="4dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:src="@drawable/ic_catalog"
+                    android:padding="2dp"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp" />
+
+                <com.one.two.three.poster.front.components.CustomTextView
+                    android:gravity="center"
+                    android:textColor="#FFF"
+                    android:textStyle="bold"
+                    android:text="@string/catalog"
+                    android:textSize="18sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

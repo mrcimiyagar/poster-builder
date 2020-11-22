@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0e374b</color>
+    <color name="colorPrimaryDark">#022d41</color>
+    <color name="colorAccent">#6fd2cf</color>
+
+    <color name="colorHomePink">#FE434E</color>
+    <color name="colorHomeGray">#A6ABAF</color>
+    <color name="colorHomeBackground">#CAD7DD</color>
+
+    <color name="colorWhiteDisable">#AAA</color>
+
+    <color name="colorSaveDialogBackground">#DAECF3</color>
+    <color name="colorMoveTextDialogBackground">#1A022D41</color>
+    <color name="colorMoveTextDialogAlign">#C0022D41</color>
+    <color name="colorFloatingProgress">#80022D41</color>
+
+</resources>

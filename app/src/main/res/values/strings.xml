@@ -1,0 +1,156 @@
+<resources>
+    <string name="app_name">یک، دو، سه؛ طراحی</string>
+
+    <string name="description">"یک، دو، سه؛ پوستر" به شما کمک می‌کند تا به راحتی و در سه گام ساده با استفاده از موبایل خود یک پوستر حرفه‌ای برای معرفی، تبلیغات و یا اطلاع‌رسانی رویدادهای خود طراحی کنید و با کیفیت بالا چاپ و یا به آسانی با دیگران به اشتراک بگذارید.</string>
+
+    <!-- Activity Home texts -->
+    <string name="oneTwoThree">یک، دو، سه؛</string>
+    <string name="design">طراحی</string>
+    <string name="resume">رزومـه</string>
+    <string name="poster">پوسـتر</string>
+    <string name="imageText">عکس‌نوشته</string>
+    <string name="catalog">کاتالوگ</string>
+    <string name="header">سربرگ</string>
+    <string name="borushur">بروشـور</string>
+    <string name="visit_card">کارت‌ویزیت</string>
+    <string name="setting">تنظیمات</string>
+    <string name="help">راهنما</string>
+    <string name="title_activity_categories">ActivityCategories</string>
+    <string name="title_activity_test">ActivityTest</string>
+
+    <!-- Dialog Save Poster texts -->
+    <string name="which_size">پوستر خود را با چه سایزی ذخیره می‌کنید؟</string>
+    <string name="normal">معمولی</string>
+    <string name="normal_desc">سایز استاندارد و بهینه برای اشتراک گذاری در شبکه‌های اجتماعی</string>
+    <string name="big">بزرگ</string>
+    <string name="big_desc">سایز استاندارد و بهینه برای پرینت بر روی کاغذ تا ابعاد کاغذ A3</string>
+    <string name="cancel">انصراف</string>
+    <string name="save">ذخیره</string>
+    <string name="gallery">گالری</string>
+
+    <!-- Action bar texts -->
+    <string name="downloads">دانلود‌ها</string>
+    <string name="home">خانه</string>
+    <string name="new_poster">پوستر جدید</string>
+    <string name="posters">قالب‌ها</string>
+
+    <!-- Tags label -->
+    <string name="sargarmi">سرگرمی</string>
+    <string name="gardeshgari">گردشگری</string>
+    <string name="seminar">سمینار و همایش</string>
+    <string name="kasbokar">کسب و کار</string>
+    <string name="modiriat">مدیریت</string>
+    <string name="maliosarmaye">مالی و سرمایه گذاری</string>
+    <string name="technology">تکنولوژی</string>
+    <string name="elmi">علمی و مهندسی</string>
+    <string name="maliobime">مالی و بیمه</string>
+    <string name="tahsili">تحصیلی</string>
+    <string name="mazhab">مذهب ، فرهنگ و هنر</string>
+    <string name="karafarini">کارآفرینی</string>
+    <string name="pezeshki">پزشکی</string>
+    <string name="tosee">توسعه فردی ، اجتماعی</string>
+    <string name="show_all">نمایش همه</string>
+    <string name="no_frame_group_title">بدون فریم</string>
+    <string name="one_frame_group_title">یک فریم</string>
+    <string name="two_frame_group_title">دو فریم</string>
+    <string name="three_frame_group_title">سه فریم</string>
+    <string name="four_frame_group_title">چهار فریم</string>
+    <string name="five_frame_group_title">پنج فریم</string>
+    <string name="save_button_label">ذخیره</string>
+    <string name="posters_title">انتخاب قالب</string>
+
+    <string name="edit_add_texts">افزودن متن‌ها</string>
+    <string name="edit_replace_images">جایگذاری تصاویر</string>
+    <string name="edit_add_logos">افزودن لوگو</string>
+
+    <string name="free">رایـگان</string>
+    <string name="export_path">مسیر ذخیره‌سازی پوسترها</string>
+
+    <string name="buy_confim">برای استفاده از این طرح و همچنین حمایت از این پروژه، لطفا این قالب را خریداری نمایید.</string>
+    <string name="buy_ok">باشه؛ میخرمش :)</string>
+    <string name="buy_cancel">نه؛ نمیخوامش</string>
+
+    <string name="edit_exit_question">از صفحه ویرایش پوستر خارج می‌شوید؟</string>
+    <string name="edit_exit_undone">(در صورت خروج بدون ذخیره‌سازی تغییرات شما ذخیره نخواهد شد)</string>
+
+    <string name="help_image_working">برای بزرگ‌نمایی و کوچک‌نمایی تصاویر کوچک، کافیست یک انگشت روی عکس مورد نظر قرار بگیرد و با قراردادن انگشت دوم جهت تغییر اندازه عکس در هر جای صفحه (به جز فریم‌های دیگر قالب) نسبت به کوچک، بزرگ و چرخاندن تصویر اقدام نمایید</string>
+
+    <!-- Directory Picker -->
+    <string name="title_choose">انتخاب</string>
+    <string name="title_choose_dict_file">یک پوشه انتخاب کنید</string>
+    <string name="dialog_ok">انتخاب</string>
+    <string name="dialog_cancel">انصراف</string>
+    <string name="empty_directory">پوشه ی خالی</string>
+    <string name="storage_removed">Storage was removed or unmounted.</string>
+    <string name="choose_file">انتخاب یک پوشه</string>
+    <string name="error_selecting_file">خطا در انتخاب فایل</string>
+    <string name="internal_storage">حافظه داخلی</string>
+    <string name="about_us">درباره ما</string>
+    <string name="other">سایر</string>
+    <string name="developers">توسعه دهندگان</string>
+    <string name="dir_pick_success">مسیر ذخیره سازی انتخاب شد</string>
+    <string name="no_internet">برای مشاهده قالب های جدید به اینترنت نیاز دارید</string>
+    <string name="ok">خُب!</string>
+    <string name="press_back">برای خروج یکبار دیگر دکمه برگشت را بزنید</string>
+    <string name="version">نسخه</string>
+    <string name="developers_text">توسعه دهندگان\n ● پویان ناهد \n ● کیهان محمدی \n ● علیرضا دربندی</string>
+    <string name="grant_permission">لطفا دسترسی مورد نیاز را فعال کنید</string>
+    <string name="problem_iab">مشکل در اتصال به کافه بازار</string>
+    <string name="iab_connect_problem">مشکل در اتصال به پرداخت درون برنامه ای بازار لطفا دوباره امتحان کنید</string>
+    <string name="bazaar_login">برای خرید باید در اکانت بازار خود لاگین کنید</string>
+
+    <string name="add_logo">افزودن لوگو</string>
+    <string name="logo_dialog_text">بهتر است لوگوهای انتخابی شما با فرمت png باشد تا  بر روی پوستر به شکل مناسبی قرار بگیرد</string>
+
+    <!-- Text frame strings -->
+    <string name="add_text">افزودن متن</string>
+    <string name="write_here">اینجا بنویسید...</string>
+    <string name="align">چیدمان</string>
+    <string name="align_left">چپ‌چین</string>
+    <string name="align_center">وسط‌چین</string>
+    <string name="align_right">راست‌چین</string>
+    <string name="select_font">انتخاب فونت</string>
+    <string name="test">Some <b>testing</b> text</string>
+    <string name="alpha">شفافیت</string>
+    <string name="radius">شعاع</string>
+    <string name="shadow_dx">فاصله عرضی</string>
+    <string name="shadow_dy">فاصله عمودی</string>
+    <string name="width">عرض</string>
+    <string name="height">ارتفاع</string>
+    <string name="corners">گوشه ها</string>
+    <string name="sample_style">متن نمونه (یک، دو، سه؛ پوستر)</string>
+    <string name="center">وسط</string>
+    <string name="select_font_content">انتخاب این فونت (یک،دو،سه؛طراحی)</string>
+    <string name="rotate">:چرخش</string>
+    <string name="update">به‌روزرسانی</string>
+    <string name="new_update_available">به‌روزرسانی جدید موجود است</string>
+    <string name="current_version">نسخه فعلی</string>
+    <string name="new_version">نسخه جدید</string>
+    <string name="direct_download">دریافت مستقیم</string>
+    <string name="new_features">تغییرات جدید :</string>
+
+    <array name="text_styles">
+        <item>رنگ متن</item>
+        <item>سایه</item>
+        <item>حاشیه</item>
+        <item>پس زمینه</item>
+    </array>
+
+
+    <string name="update_test_1">اضافه شدن ویرایشگر متن پیشرفته</string>
+    <string name="update_test_2">حل برخی از مشکلات جزئی</string>
+    <string name="coming_soon">این بخش به زودی افزوده خواهد شد</string>
+    <string name="loading">درحال بارگزاری</string>
+    <string name="your_vote">امتیاز شما به این برنامه</string>
+    <string name="vote_message">در صورتی که این اپلیکیشن برای شما و کاربردی واقع شده، لطفا با ثبت نظر و ۵ ستاره در کافه‌بازار، از ما حمایت کنید.\nبا تشکر از همراهی شما!!</string>
+    <string name="submit_vote">ثبت نظر</string>
+    <string name="exit_app">خروج از اپلیکیشن</string>
+    <string name="bazaar_is_not_installed">برای خرید پوستر باید بازار را نصب کنید</string>
+    <string name="share_title">اشتراک‌گذاری "یک دو سه طراحی"</string>
+    <string name="share_message">در صورتی که این اپلیکیشن برای شما مفید واقع شده و ازش رضایت دارید، لطفا در شبکه‌های اجتماعی و تلگرام به دوستان و همکاران خود "یک دو سه طراحی" را معرفی کنید.</string>
+    <string name="share">اشتراک‌گذاری</string>
+    <string name="share_content">اپلیکیشن یک دو سه طراحی را در بازار ببین: </string>
+    <string name="rate_poster">به این پوستر ستاره بدهید:</string>
+
+
+</resources>

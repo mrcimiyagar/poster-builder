@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/colorPrimaryDark"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.one.two.three.poster.front.components.CustomTextView
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="8dp"
+        android:textColor="#FFF"
+        android:padding="8dp"
+        android:textSize="19sp"
+        android:text="@string/select_font"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    
+    <ImageView
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp"
+        android:background="#FFF"
+        android:layout_width="match_parent"
+        android:layout_height="1dp" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/fontList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

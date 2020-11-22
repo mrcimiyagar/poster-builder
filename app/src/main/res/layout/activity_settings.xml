@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".poster.front.activities.ActivitySettings">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/colorPrimaryDark">
+
+        <android.support.v7.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:contentInsetEnd="0dp"
+            app:contentInsetStart="0dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <com.one.two.three.poster.front.components.CustomTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="تنظیمات"
+                    android:gravity="center"
+                    style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"
+                    android:textColor="#fff"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_alignParentRight="true"
+                    android:onClick="onHomeBtnClicked">
+
+                    <com.one.two.three.poster.front.components.CustomTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="خانه"
+                        android:gravity="center"
+                        android:textColor="#fff"
+                        android:textSize="18sp"/>
+
+                    <ImageView
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:src="@drawable/ic_home"
+                        android:scaleType="fitXY"
+                        android:padding="16dp"/>
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.Toolbar>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <LinearLayout
+        android:background="@color/colorPrimary"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="48dp">
+
+        <com.one.two.three.poster.front.components.CustomTextView
+            android:textColor="#BBB"
+            android:textSize="13sp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"
+            android:paddingRight="16dp"
+            android:paddingLeft="16dp"
+            android:text="@string/setting"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:layout_marginRight="36dp"
+            android:layout_marginLeft="36dp"
+            android:src="#3f6fd2cf"
+            android:layout_width="match_parent"
+            android:layout_height="1dp" />
+
+        <com.one.two.three.poster.front.components.CustomTextView
+            android:id="@+id/txtSettingExport"
+            android:textColor="#FFF"
+            android:textSize="15sp"
+            android:padding="12dp"
+            android:text="@string/export_path"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <com.one.two.three.poster.front.components.CustomTextView
+            android:id="@+id/txtSettingExportDir"
+            android:textColor="@color/colorWhiteDisable"
+            android:textSize="12sp"
+            android:paddingRight="16dp"
+            android:paddingLeft="16dp"
+            android:layout_marginBottom="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <com.one.two.three.poster.front.components.CustomTextView
+            android:textColor="#BBB"
+            android:textSize="13sp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"
+            android:paddingRight="16dp"
+            android:paddingLeft="16dp"
+            android:text="@string/other"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:layout_marginRight="36dp"
+            android:layout_marginLeft="36dp"
+            android:src="#3f6fd2cf"
+            android:layout_width="match_parent"
+            android:layout_height="1dp" />
+
+        <com.one.two.three.poster.front.components.CustomTextView
+            android:id="@+id/txtAboutUs"
+            android:textColor="#FFF"
+            android:textSize="15sp"
+            android:padding="16dp"
+            android:text="@string/about_us"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <com.one.two.three.poster.front.components.CustomTextView
+            android:id="@+id/txtAboutDevelopers"
+            android:textColor="#FFF"
+            android:textSize="17sp"
+            android:padding="16dp"
+            android:text="@string/developers"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.one.two.three.poster.front.components.CustomTextView
+            android:id="@+id/txtValue"
+            android:layout_marginRight="4dp"
+            android:layout_marginLeft="4dp"
+            android:gravity="center"
+            android:textColor="#FFF"
+            android:text="255"
+            android:textSize="13sp"
+            android:layout_width="28dp"
+            android:layout_height="match_parent" />
+
+        <org.adw.library.widgets.discreteseekbar.DiscreteSeekBar
+            android:id="@+id/seekbar"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:dsb_progressColor="@color/colorAccent"
+            app:dsb_indicatorElevation="0dp"
+            app:dsb_indicatorPopupEnabled="true"
+            app:dsb_trackColor="#FFF"
+            app:dsb_indicatorColor="@color/colorAccent"
+            app:dsb_min="0"
+            app:dsb_max="255"
+            />
+
+        <ImageView
+            android:id="@+id/imgSub"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:padding="4dp"
+            android:src="@drawable/ic_minus"
+            android:layout_width="24dp"
+            android:layout_height="24dp" />
+
+        <ImageView
+            android:id="@+id/imgAdd"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:layout_marginLeft="6dp"
+            android:padding="4dp"
+            android:src="@drawable/ic_plus"
+            android:layout_width="24dp"
+            android:layout_height="24dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:background="@color/colorPrimaryDark"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/color_list"
+        android:layout_width="match_parent"
+        android:layout_height="48dp" />
+
+    <com.one.two.three.poster.front.components.VolumeView
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="6dp"
+        android:id="@+id/volumeRed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <com.one.two.three.poster.front.components.VolumeView
+        android:layout_marginBottom="6dp"
+        android:id="@+id/volumeGreen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <com.one.two.three.poster.front.components.VolumeView
+        android:layout_marginBottom="6dp"
+        android:id="@+id/volumeBlue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

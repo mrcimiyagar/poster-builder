@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:background="@color/colorPrimaryDark"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="48dp">
+
+        <com.one.two.three.poster.front.components.CustomTextView
+            android:id="@+id/txtDownloads"
+            android:gravity="center"
+            android:textSize="15sp"
+            android:textColor="#FFF"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+
+        <com.one.two.three.poster.front.components.CustomTextView
+            android:id="@+id/txtActionbarTitle"
+            android:text="راهنمای استفاده"
+            android:textStyle="bold"
+            android:textSize="17sp"
+            android:gravity="center"
+            android:textColor="#FFF"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+
+        <com.one.two.three.poster.front.components.CustomTextView
+            android:id="@+id/txtActionHome"
+            android:gravity="center"
+            android:textSize="15sp"
+            android:textColor="#FFF"
+            android:text="خانه"
+            android:paddingTop="4dp"
+            android:layout_marginRight="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+
+        <ImageView
+            android:id="@+id/imgActionHome"
+            android:padding="6dp"
+            android:src="@drawable/ic_home"
+            android:layout_width="32dp"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+    <ScrollView
+        android:background="#daecf3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_marginTop="16dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:gravity="center_horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_marginRight="36dp"
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/imgFinal"
+                        android:src="@drawable/final_image"
+                        android:layout_width="141dp"
+                        android:layout_height="200dp" />
+
+                    <com.one.two.three.poster.front.components.CustomTextView
+                        android:textSize="14sp"
+                        android:textColor="#fe424d"
+                        android:layout_marginTop="4dp"
+                        android:gravity="center"
+                        android:layout_gravity="center_horizontal"
+                        android:text="در یک، دو، سه؛ پوستر"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:src="@drawable/raw_image"
+                        android:layout_width="141dp"
+                        android:layout_height="200dp" />
+
+                    <com.one.two.three.poster.front.components.CustomTextView
+                        android:textSize="14sp"
+                        android:textColor="#fe424d"
+                        android:layout_marginTop="4dp"
+                        android:gravity="center"
+                        android:text="عکس اصلی"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <com.one.two.three.poster.front.components.CustomTextView
+                android:textColor="@color/colorPrimary"
+                android:textSize="15sp"
+                android:paddingRight="16dp"
+                android:paddingLeft="16dp"
+                android:layout_margin="16dp"
+                android:text="@string/description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <com.one.two.three.poster.front.components.CustomTextView
+                android:textColor="@color/colorPrimary"
+                android:textSize="15sp"
+                android:layout_marginRight="32dp"
+                android:layout_marginLeft="32dp"
+                android:text="به راحتی در سه مرحله بعد از نصب نرم‌افزار؛"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <com.one.two.three.poster.front.components.CustomTextView
+                android:textColor="@color/colorPrimary"
+                android:textSize="15sp"
+                android:layout_marginTop="6dp"
+                android:layout_marginRight="32dp"
+                android:layout_marginLeft="32dp"
+                android:text="● قالب مورد نظر رو انتخاب کن"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:src="@drawable/poster_select"
+                android:layout_marginTop="16dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="240dp"
+                android:layout_height="340dp" />
+
+            <com.one.two.three.poster.front.components.CustomTextView
+                android:textColor="@color/colorPrimary"
+                android:layout_marginTop="8dp"
+                android:gravity="center"
+                android:text="تعداد فریم نشانگر تعداد تصاویر قابل جایگزینی است"
+                android:textSize="11sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <com.one.two.three.poster.front.components.CustomTextView
+                android:textColor="@color/colorPrimary"
+                android:textSize="15sp"
+                android:layout_marginTop="42dp"
+                android:layout_marginRight="32dp"
+                android:layout_marginLeft="32dp"
+                android:text="● جای عکس پیشفرض عکس مورد نظر خودت و قرار بده!"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:src="@drawable/image_edit"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="4dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="240dp"
+                android:layout_height="380dp" />
+
+            <com.one.two.three.poster.front.components.CustomTextView
+                android:textSize="10sp"
+                android:layout_marginLeft="24dp"
+                android:layout_marginRight="24dp"
+                android:textColor="@color/colorPrimary"
+                android:gravity="center_horizontal"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/help_image_working"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <com.one.two.three.poster.front.components.CustomTextView
+                android:textColor="@color/colorPrimary"
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="32dp"
+                android:layout_marginRight="32dp"
+                android:layout_marginTop="48dp"
+                android:text="● جای متن پیشفرض متن مورد نظر خودت رو بنویس!"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:src="@drawable/text_edit"
+                android:layout_marginTop="16dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="240dp"
+                android:layout_height="339dp" />
+
+            <com.one.two.three.poster.front.components.CustomTextView
+                android:textColor="@color/colorPrimary"
+                android:textSize="15sp"
+                android:layout_marginTop="48dp"
+                android:layout_marginRight="32dp"
+                android:layout_marginLeft="32dp"
+                android:text="پوستر حرفه ای خودت رو با فرمت مورد نظرت ذخیره کن."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:src="@drawable/save_dialog"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="32dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="240dp"
+                android:layout_height="200dp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

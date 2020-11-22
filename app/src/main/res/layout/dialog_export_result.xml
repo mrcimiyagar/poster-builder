@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="8dp"
+    android:background="@color/colorSaveDialogBackground"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:foregroundGravity="right"
+        android:id="@+id/animationView"
+        android:layout_marginTop="-16dp"
+        android:layout_width="120dp"
+        android:layout_height="120dp" />
+
+    <com.one.two.three.poster.front.components.CustomTextView
+        android:layout_marginTop="-24dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:text="پوستر با موفقیت در آدرس زیر ذخیره شد."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <com.one.two.three.poster.front.components.CustomTextView
+        android:id="@+id/dialog_export_result_path_text_view"
+        android:layout_margin="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text=""/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="6dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:layout_weight="0.5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content">
+
+            <com.one.two.three.poster.front.components.CustomTextView
+                android:id="@+id/txtSavePoster"
+                android:textColor="@color/colorHomePink"
+                android:textSize="15sp"
+                android:layout_marginTop="16dp"
+                android:text="باز کردن"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:layout_weight="0.5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content">
+
+            <com.one.two.three.poster.front.components.CustomTextView
+                android:id="@+id/txtCancelSave"
+                android:layout_marginTop="16dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="15sp"
+                android:text="خب"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

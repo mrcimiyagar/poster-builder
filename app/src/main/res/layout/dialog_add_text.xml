@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:background="@color/colorPrimaryDark"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.one.two.three.poster.front.components.CustomTextView
+        android:textSize="15sp"
+        android:textColor="#FFF"
+        android:text="@string/add_text"
+        android:layout_marginBottom="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/edtAddText"
+        android:textColorHint="#7FFF"
+        android:textColor="#FFF"
+        android:hint="@string/write_here"
+        android:layout_width="match_parent"
+        android:textSize="13sp"
+        android:gravity="top"
+        android:layout_height="96dp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    
+        <com.one.two.three.poster.front.components.CustomTextView
+            android:textSize="13sp"
+            android:clickable="true"
+            android:gravity="center"
+            android:background="@drawable/custom_button"
+            android:paddingTop="4dp"
+            android:paddingBottom="4dp"
+            android:id="@+id/btnTextFont"
+            android:text="@string/select_font"
+            android:layout_marginRight="2dp"
+            android:layout_marginLeft="2dp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:focusable="true" />
+
+        <com.one.two.three.poster.front.components.CustomTextView
+            android:textSize="13sp"
+            android:clickable="true"
+            android:background="@drawable/custom_button"
+            android:gravity="center"
+            android:paddingTop="6dp"
+            android:paddingBottom="6dp"
+            android:id="@+id/btnTextAlign"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:focusable="true" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.one.two.three.poster.front.components.CustomTextView
+            android:id="@+id/txtAddTextSave"
+            android:clickable="true"
+            android:focusable="true"
+            android:textSize="13sp"
+            android:textColor="#FFF"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:paddingRight="18dp"
+            android:paddingLeft="18dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="@string/save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginEnd="4dp"
+            android:layout_marginRight="4dp" />
+
+        <com.one.two.three.poster.front.components.CustomTextView
+            android:id="@+id/txtAddTextCancel"
+            android:clickable="true"
+            android:focusable="true"
+            android:textSize="13sp"
+            android:textColor="#FFF"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:paddingRight="18dp"
+            android:paddingLeft="18dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="@string/cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginEnd="4dp"
+            android:layout_marginRight="4dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

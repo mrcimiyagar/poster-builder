@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:background="@color/colorPrimaryDark"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imgSampleBackground"
+            android:layout_centerInParent="true"
+            android:scaleType="centerCrop"
+            android:src="#FFF"
+            android:layout_width="match_parent"
+            android:layout_height="48dp" />
+
+        <com.one.two.three.poster.front.components.CustomTextView
+            android:id="@+id/txtStyleSample"
+            android:background="@drawable/text_style_background"
+            android:textColor="#000"
+            android:gravity="center"
+            android:text="@string/sample_style"
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+    <Spinner
+        style="@style/Base.Widget.AppCompat.Spinner.Underlined"
+        android:id="@+id/spinnerStyle"
+        android:spinnerMode="dropdown"
+        android:entries="@array/text_styles"
+        android:layout_marginTop="12dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </Spinner>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/styleContainer"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginBottom="6dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.one.two.three.poster.front.components.CustomTextView
+            style="@style/Base.Widget.AppCompat.Button.Borderless"
+            android:id="@+id/txtSaveStyle"
+            android:text="@string/save"
+            android:textSize="14sp"
+            android:textColor="#FFF"
+            android:paddingTop="3dp"
+            android:paddingBottom="3dp"
+            android:paddingStart="8dp"
+            android:paddingEnd="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <com.one.two.three.poster.front.components.CustomTextView
+            style="@style/Base.Widget.AppCompat.Button.Borderless"
+            android:layout_marginLeft="4dp"
+            android:id="@+id/txtCancelStyle"
+            android:text="@string/cancel"
+            android:textSize="14sp"
+            android:textColor="#FFF"
+            android:paddingTop="3dp"
+            android:paddingBottom="3dp"
+            android:paddingStart="8dp"
+            android:paddingEnd="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</LinearLayout>

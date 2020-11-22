@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/colorSaveDialogBackground"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+    <com.one.two.three.poster.front.components.CustomTextView
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="21sp"
+        android:layout_marginTop="16dp"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/developers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/animationView"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="32dp"
+        android:layout_width="136dp"
+        android:layout_height="136dp" />
+
+    <com.one.two.three.poster.front.components.CustomTextView
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="14sp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/developers_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <com.one.two.three.poster.front.components.CustomTextView
+        android:id="@+id/txtDialogAboutVersion"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:textStyle="bold"
+        android:textSize="14sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <com.one.two.three.poster.front.components.CustomTextView
+        android:id="@+id/txtDialogOk"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:textSize="17sp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/colorHomePink"
+        android:text="@string/ok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
